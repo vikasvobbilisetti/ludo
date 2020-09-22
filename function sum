@@ -1,0 +1,18 @@
+
+   int sum(int a,int b,int c,int d)
+   {
+   int s;
+   s=a+b+c+d;
+   return s;
+   }
+   int main()
+   {
+    int a=1;
+    int b=2;
+    int c=3;
+    int d=4;
+
+   int reminder;
+   reminder=sum(a,b,c,d);
+   printf("the final answer is %d",reminder);
+   }
